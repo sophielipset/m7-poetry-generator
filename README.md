@@ -21,18 +21,22 @@ follow the port that Flask directs you to. It should run on 8000.
 
 Before doing that, set up a virtual environment:
 
-python3 -m venv .venv
+```
+python3 -m venv .venv 
 source .venv/bin/activate
 .venv/bin/python
+```
 
 Then install the following: 
 
+```
 pip install bs4
 pip install sentence_transformers
 pip install spacy
 python3 -m spacy download en_core_web_lg
 pip install pronouncing 
 pip install gensim
+```
 
 ## Reflection
 This system was probably the most challenging thing that I've worked on while
